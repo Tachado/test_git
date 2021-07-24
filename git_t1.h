@@ -14,6 +14,7 @@ __published:	// Composants gérés par l'EDI
 	TButton *Button1;
 	TButton *Button2;
 	TButton *Button3;
+	void __fastcall Button2Click(TObject *Sender);
 private:	// Déclarations utilisateur
 public:		// Déclarations utilisateur
 	__fastcall TForm1(TComponent* Owner);
